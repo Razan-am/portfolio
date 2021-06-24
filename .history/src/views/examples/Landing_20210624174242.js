@@ -855,11 +855,6 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <section className="My Background">
-            <p>
-              personal pitch
-            </p>
-          </section>
           <Download />
         </main>
         <CardsFooter />

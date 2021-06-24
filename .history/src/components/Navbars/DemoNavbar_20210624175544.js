@@ -122,6 +122,20 @@ class DemoNavbar extends React.Component {
                         Protofolio
                       </DropdownItem>
                     </DropdownMenu>
+                  <DropdownMenu>
+                      <DropdownItem to="/landing-page" tag={Link}>
+                        Landing
+                      </DropdownItem>
+                      <DropdownItem to="/profile-page" tag={Link}>
+                        Profile
+                      </DropdownItem>
+                      <DropdownItem to="/login-page" tag={Link}>
+                        Login
+                      </DropdownItem>
+                      <DropdownItem to="/register-page" tag={Link}>
+                        Register
+                      </DropdownItem>
+                    </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>

@@ -81,8 +81,8 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        The most excited in tech{" "}
-                        
+                        A beautiful Design System{" "}
+                        <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
                         The design system comes with four pre-built pages to
@@ -184,10 +184,12 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            code 201 
+                            Build Something
                           </h6>
                           <p className="description mt-3">
-                            art house
+                            Argon is a great free UI package based on Bootstrap
+                            4 that includes the most important components and
+                            features.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -206,7 +208,7 @@ class Landing extends React.Component {
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            more details about the project
+                            Learn more
                           </Button>
                         </CardBody>
                       </Card>
@@ -218,10 +220,12 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            301 project
+                            Prepare Launch
                           </h6>
                           <p className="description mt-3">
-                           future 301 project
+                            Argon is a great free UI package based on Bootstrap
+                            4 that includes the most important components and
+                            features.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -250,7 +254,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          {/* <section className="section section-lg">
+          <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
@@ -326,8 +330,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section> */}
-          {/* <section className="section bg-secondary">
+          </section>
+          <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -355,10 +359,12 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Code 401 
+                        Design System
                       </h4>
                       <p className="lead text-italic text-white">
-                        401 future project
+                        The Arctic Ocean freezes every winter and much of the
+                        sea-ice then thaws every summer, and that process will
+                        continue whatever happens.
                       </p>
                     </blockquote>
                   </Card>
@@ -483,7 +489,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            
+            {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -499,8 +505,8 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section> */}
-          {/* <section className="section section-lg">
+          </section>
+          <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -685,8 +691,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section> */}
-          {/* <section className="section section-lg pt-0">
+          </section>
+          <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -716,8 +722,8 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section> */}
-          {/* <section className="section section-lg bg-gradient-default">
+          </section>
+          <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
@@ -763,7 +769,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-
+            {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -854,11 +860,6 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section> */}
-          <section className="My Background">
-            <p>
-              personal pitch
-            </p>
           </section>
           <Download />
         </main>

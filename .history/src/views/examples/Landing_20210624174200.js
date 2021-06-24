@@ -327,7 +327,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          {/* <section className="section bg-secondary">
+          <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -483,7 +483,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            
+            {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -499,7 +499,7 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section> */}
+          </section>
           {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
@@ -855,11 +855,6 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <section className="My Background">
-            <p>
-              personal pitch
-            </p>
-          </section>
           <Download />
         </main>
         <CardsFooter />

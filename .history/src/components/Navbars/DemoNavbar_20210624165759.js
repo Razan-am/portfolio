@@ -115,11 +115,31 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
+                      <DropdownItem to="/landing-page" tag={Link}>
+                        Landing
+                      </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
                       <DropdownItem to="/login-page" tag={Link}>
-                        Protofolio
+                        Login
+                      </DropdownItem>
+                      <DropdownItem to="/register-page" tag={Link}>
+                        Register
+                      </DropdownItem>
+                    </DropdownMenu>
+                  <DropdownMenu>
+                      <DropdownItem to="/landing-page" tag={Link}>
+                        Landing
+                      </DropdownItem>
+                      <DropdownItem to="/profile-page" tag={Link}>
+                        Profile
+                      </DropdownItem>
+                      <DropdownItem to="/login-page" tag={Link}>
+                        Login
+                      </DropdownItem>
+                      <DropdownItem to="/register-page" tag={Link}>
+                        Register
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
@@ -128,17 +148,17 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="linkedin.com/in/razan-tariq-a21079200"
+                      href="https://lucid-heyrovsky-5eb2c6.netlify.app/"
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin" />
+                      <i className="fa fa-instagram" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        LinkedIn 
+                        Portfolio
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      start the LinkedIn
+                      Follow us on Instagram
                     </UncontrolledTooltip>
                   </NavItem>
 

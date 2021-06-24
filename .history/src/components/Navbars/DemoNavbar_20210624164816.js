@@ -114,38 +114,45 @@ class DemoNavbar extends React.Component {
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
-                      </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
-                        Protofolio
-                      </DropdownItem>
-                    </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="linkedin.com/in/razan-tariq-a21079200"
+                      href="https://www.instagram.com/creativetimofficial"
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin" />
+                      <i className="fa fa-instagram" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        LinkedIn 
+                        Instagram
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      start the LinkedIn
+                      Follow us on Instagram
                     </UncontrolledTooltip>
                   </NavItem>
-
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/Razan-am"
+                      href="https://twitter.com/creativetim"
+                      id="tooltip184698705"
+                      target="_blank"
+                    >
+                      <i className="fa fa-twitter-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Twitter
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip184698705">
+                      Follow us on Twitter
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://github.com/creativetimofficial/argon-design-system-react"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -157,6 +164,21 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
                       Star us on Github
                     </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem className="d-none d-lg-block ml-lg-4">
+                    <Button
+                      className="btn-neutral btn-icon"
+                      color="default"
+                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
+                      target="_blank"
+                    >
+                      <span className="btn-inner--icon">
+                        <i className="fa fa-cloud-download mr-2" />
+                      </span>
+                      <span className="nav-link-inner--text ml-1">
+                        Download
+                      </span>
+                    </Button>
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>

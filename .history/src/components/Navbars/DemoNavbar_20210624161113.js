@@ -109,43 +109,29 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
-                      </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
-                        Protofolio
-                      </DropdownItem>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
+                  
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="linkedin.com/in/razan-tariq-a21079200"
-                      id="tooltip356693867"
+                      href="https://www.facebook.com/creativetim"
+                      id="tooltip333589074"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin" />
+                      <i className="fa fa-facebook-square" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        LinkedIn 
+                        Facebook
                       </span>
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      start the LinkedIn
+                    <UncontrolledTooltip delay={0} target="tooltip333589074">
+                      Like us on Facebook
                     </UncontrolledTooltip>
                   </NavItem>
-
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/Razan-am"
+                      href="https://github.com/creativetimofficial/argon-design-system-react"
                       id="tooltip112445449"
                       target="_blank"
                     >
