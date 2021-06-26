@@ -253,7 +253,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="My Background" >
+          <section className="My Background" className="col px-0">
             <p>
               Personal Pitch
             </p>

@@ -75,7 +75,7 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <a> RazAm</a>
+                <p> RazAm</p>
                 {/* <img
                   alt="..."
                   src={reactWhite}
@@ -119,8 +119,8 @@ class DemoNavbar extends React.Component {
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Portofolio
+                      <DropdownItem to="/login-page" tag={Link}>
+                        Protofolio
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>

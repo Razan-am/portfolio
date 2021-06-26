@@ -16,7 +16,7 @@
 
 */
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // reactstrap components
@@ -74,12 +74,12 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <a> RazAm</a>
+              <NavbarBrand className="mr-lg-5" to="/" tag={https://razan-am.netlify.app/profile-page}>
                 {/* <img
                   alt="..."
                   src={reactWhite}
                 /> */}
+                <p> RazAm</p>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -119,8 +119,8 @@ class DemoNavbar extends React.Component {
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Portofolio
+                      <DropdownItem to="/login-page" tag={Link}>
+                        Protofolio
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>

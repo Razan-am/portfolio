@@ -248,17 +248,52 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    <h1>More projects</h1>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          {/* <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div> */}
+                          <h6 className="text-warning text-uppercase">
+                            401 project
+                          </h6>
+                          <p className="description mt-3">
+                           future 401 project
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
                   </Row>
                 </Col>
               </Row>
             </Container>
           </section>
-          <section className="My Background" >
+          <section className="My Background">
             <p>
-              Personal Pitch
+              personal pitch
             </p>
           </section>
-          {/* <Download /> */}
+          <Download />
         </main>
         <CardsFooter />
       </>

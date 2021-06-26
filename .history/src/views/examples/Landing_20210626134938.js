@@ -144,20 +144,20 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
-                          </div> */}
+                          </div>
                           <h6 className="text-primary text-uppercase">
                             Code 201  Project 
                           </h6>
                           <p className="description mt-3">
                            Art House
                           </p>
-                          {/* <img
+                          <img
                             alt="..."
                             className="rounded-circle"
-                            src="/src/assets/img/projects/c1-1.png"
-                          /> */}
+                            src={/img/projects/c1-1.PNG}
+                          />
                           {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
@@ -169,30 +169,32 @@ class Landing extends React.Component {
                               creative
                             </Badge>
                           </div> */}
-                          {/* <Button
+                          <Button
                             className="mt-4"
                             color="primary"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                          </Button> */}
-                          <p> Art House was established to provide an opportunities to the artists to entering the global art market. With the principle that all artists benefit from having thier artwork promoted by a professional gallery. And to be a connecting bridge between the artists and the users with displaying all the art work types.</p>
+                            
+                          ABOUT ART HOUSE
+                          Art House was established to provide an opportunities to the artists to entering the global art market. With the principle that all artists benefit from having thier artwork promoted by a professional gallery. And to be a connecting bridge between the artists and the users with displaying all the art work types.
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          {/* <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
-                          </div> */}
+                          </div>
                           <h6 className="text-success text-uppercase">
                           301 project
                           </h6>
                           <p className="description mt-3">
                           future 301 project
                           </p>
-                          {/* <div>
+                          <div>
                             <Badge color="success" pill className="mr-1">
                               business
                             </Badge>
@@ -210,23 +212,23 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             more details about the project
-                          </Button> */}
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          {/* <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
-                          </div> */}
+                          </div>
                           <h6 className="text-warning text-uppercase">
                             401 project
                           </h6>
                           <p className="description mt-3">
                            future 401 project
                           </p>
-                          {/* <div>
+                          <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -244,7 +246,7 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button> */}
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -253,12 +255,12 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="My Background" >
+          <section className="My Background">
             <p>
-              Personal Pitch
+              personal pitch
             </p>
           </section>
-          {/* <Download /> */}
+          <Download />
         </main>
         <CardsFooter />
       </>

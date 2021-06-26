@@ -75,11 +75,11 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <a> RazAm</a>
                 {/* <img
                   alt="..."
                   src={reactWhite}
                 /> */}
+                <p> RazAm</p>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -95,10 +95,10 @@ class DemoNavbar extends React.Component {
                   <Row>
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
-                        <img
+                        {/* <img
                           alt="..."
                           src={argonReact}
-                        />
+                        /> */}
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">
@@ -119,8 +119,8 @@ class DemoNavbar extends React.Component {
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Portofolio
+                      <DropdownItem to="/login-page" tag={Link}>
+                        Protofolio
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>

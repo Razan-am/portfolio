@@ -85,7 +85,7 @@ class Profile extends React.Component {
                       lg="4"
                     >
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        {/* <Button
+                        <Button
                           className="mr-4"
                           color="info"
                           href="#pablo"
@@ -93,8 +93,8 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Connect
-                        </Button> */}
-                        <Button
+                        </Button>
+                        {/* <Button
                           className="float-right"
                           color="default"
                           href="#pablo"
@@ -102,7 +102,7 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Message
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
@@ -125,6 +125,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                      Razan alamleh{" "}
+                      <span className="font-weight-light">, 25</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -146,9 +147,9 @@ class Profile extends React.Component {
                         Hello,i'm razan alamleh. 
                         Creative designer and developer.
                         </p>
-                        {/* <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
-                        </a> */}
+                        </a>
                       </Col>
                     </Row>
                   </div>

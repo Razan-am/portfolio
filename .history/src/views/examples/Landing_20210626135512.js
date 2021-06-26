@@ -248,17 +248,18 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    <h1>More projects</h1>
                   </Row>
                 </Col>
               </Row>
             </Container>
           </section>
-          <section className="My Background" >
+          <section className="My Background">
             <p>
-              Personal Pitch
+              personal pitch
             </p>
           </section>
-          {/* <Download /> */}
+          <Download />
         </main>
         <CardsFooter />
       </>

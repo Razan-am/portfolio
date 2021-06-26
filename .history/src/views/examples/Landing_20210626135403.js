@@ -153,11 +153,11 @@ class Landing extends React.Component {
                           <p className="description mt-3">
                            Art House
                           </p>
-                          {/* <img
+                          <img
                             alt="..."
                             className="rounded-circle"
                             src="/src/assets/img/projects/c1-1.png"
-                          /> */}
+                          />
                           {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
@@ -176,7 +176,7 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                           </Button> */}
-                          <p> Art House was established to provide an opportunities to the artists to entering the global art market. With the principle that all artists benefit from having thier artwork promoted by a professional gallery. And to be a connecting bridge between the artists and the users with displaying all the art work types.</p>
+                          <p>                          Art House was established to provide an opportunities to the artists to entering the global art market. With the principle that all artists benefit from having thier artwork promoted by a professional gallery. And to be a connecting bridge between the artists and the users with displaying all the art work types.</p>
                         </CardBody>
                       </Card>
                     </Col>
@@ -217,16 +217,16 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          {/* <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
-                          </div> */}
+                          </div>
                           <h6 className="text-warning text-uppercase">
                             401 project
                           </h6>
                           <p className="description mt-3">
                            future 401 project
                           </p>
-                          {/* <div>
+                          <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -244,7 +244,7 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button> */}
+                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -253,12 +253,12 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="My Background" >
+          <section className="My Background">
             <p>
-              Personal Pitch
+              personal pitch
             </p>
           </section>
-          {/* <Download /> */}
+          <Download />
         </main>
         <CardsFooter />
       </>

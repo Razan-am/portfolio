@@ -125,6 +125,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                      Razan alamleh{" "}
+                      <span className="font-weight-light">, 25</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />

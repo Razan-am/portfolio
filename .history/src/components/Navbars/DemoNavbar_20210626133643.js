@@ -75,11 +75,11 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <a> RazAm</a>
-                {/* <img
+                {/* <p> RazAm</p> */}
+                <img
                   alt="..."
                   src={reactWhite}
-                /> */}
+                />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -133,7 +133,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fab fa-linkedin" />
+                      <i className="fab fa-linkedin-in" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         LinkedIn 
                       </span>
